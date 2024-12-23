@@ -1,0 +1,179 @@
+.userProfileContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .userProfileHeader {
+    margin-bottom: 20px;
+  }
+  
+  .userProfileHeader h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .userProfileLoading {
+    color: #555;
+  }
+  
+  .userProfileError {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .userProfileInfo {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .userProfileRow {
+    margin: 5px 0;
+  }
+  
+  .userProfileTabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .userProfileTabBtn {
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .userProfileTabBtn:hover {
+    background: #ddd;
+  }
+  
+  .userProfileTabActive {
+    background: #ccc;
+    border-color: #bbb;
+  }
+  
+  .userProfileListing {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .userProfileList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .userProfileListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .userProfileItemName {
+    color: #0077cc;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .userProfileItemName:hover {
+    color: #005fa3;
+  }
+  
+  .userProfileDeleteBtn {
+    background: #ff6666;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .userProfileDeleteBtn:hover {
+    background: #cc5252;
+  }
+  
+  .userProfileModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .userProfileModal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .userProfileModalActions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .userProfileConfirmBtn {
+    background: #cc0000;
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .userProfileConfirmBtn:hover {
+    background: #990000;
+  }
+  
+  .userProfileCancelBtn {
+    background: #ccc;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .userProfileCancelBtn:hover {
+    background: #aaa;
+  }
+  
+
+  .userProfileBackBtn {
+    width: 100px;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .userProfileBackBtn:hover {
+    background: #aaa;
+  }
+
+
+  .verticalLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the flex container */
+    gap: 8px; /* Add some spacing between elements */
+}
+
+.verticalLayout .userProfileDeleteBtn {
+    align-self: flex-end; /* Align the delete button to the right */
+}

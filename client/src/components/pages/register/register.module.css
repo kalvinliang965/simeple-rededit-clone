@@ -1,0 +1,72 @@
+#registerContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 35px;
+    width: 400px;
+    height: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute; /* Positioning the element absolutely */
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+    background-color: #f5f5f5;
+    
+}
+
+#registerFormContainer {
+    width: 250px;
+}
+
+.registerFormGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;    
+}
+
+.registerButton {
+    border: none;
+    border-radius: 35px;
+    font-size: 1rem;
+
+    background-color: var(--area-color-dark4);
+    color: white;
+
+    padding: 5px 10px;
+}
+
+.registerButton:active,
+.registerButton:hover {
+    background-color: var(--area-color-dark);
+}
+
+.registerButton[type=submit] {
+    background-color: var(--primary-color);
+}
+
+.registerButton[type=submit]:active,
+.registerButton[type=submit]:hover {
+    background-color: var(--primary-hov);
+}
+
+.registerFormGroup > input {
+    width: 100%;
+    border-radius: 35px;
+    border: none;
+    padding: 10px 20px;
+
+    font-size: 1rem;
+}
+
+.registerErrorMsg {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-top: -10px;
+}

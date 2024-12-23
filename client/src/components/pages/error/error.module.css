@@ -1,0 +1,46 @@
+#errorContainer {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    border-radius: 35px;
+    width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #f8d7da; 
+    border: 1px solid #f5c2c7; 
+
+  }
+  
+  .errorHeader {
+    color: #721c24; 
+  }
+  
+  .errorMessage {
+    color: #721c24; 
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    overflow: wrap;
+  }
+  
+  .errorButton {
+    border: none;
+    border-radius: 35px;
+    font-size: 1rem;
+  
+    background-color: var(--primary-color); 
+    color: white;
+  
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .errorButton:active,
+  .errorButton:hover {
+    background-color: var(--primary-hov);
+  }
+  
