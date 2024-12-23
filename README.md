@@ -1,7 +1,15 @@
 # Class Diagram
 
+## Client UML
+
 ![Client UML](./images/CSE316-Final-Project-Client-UML.png)
+
+## Database UML
+
 ![Database UML](./images/CSE316-Final-Project-Database-UML.png)
+
+## Server UML
+
 ![Server UML](./images/CSE316-Final-Project-Server-UML.png)
 
 ## Instructions to setup and run project
